@@ -1,12 +1,11 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Cate MacLaughlin
+- **Dot Number**: maclaughlin.33
+- **Due Date**: 9/19 @ 12:40
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -29,7 +28,6 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,7 +50,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
 
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
@@ -67,7 +64,6 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -106,15 +102,12 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+
+I'm interested in dance, hiking, music, playing cello, reading, shopping, food/coffee, and gardening. I'm a data analytics major and work at ASC Tech as IT support.
+
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -122,7 +115,6 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -131,8 +123,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -200,68 +190,96 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: DanceBuilder
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+   This component would build a dance by generating random items.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
-  - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
-  - **Additional Considerations** (*note*: "I don't know" is an acceptable
-    answer for each of the following questions):
-    - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Would this component need any enums or constants (e.g.,
-      `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
-    - Can you implement your secondary methods using your kernel methods?
-      Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+  - 'String generateType()':
+  generates a random dance type/style out of list of given dances.
+  - 'int numBars()':
+  generates random number of bars in the dance (note: this will be an even number).
+  - 'String danceMood()':
+  generates random "mood" of dance from list of moods.
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
-  - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
-  - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - 'Sequence choreography()':
+    creates a random 10 digit sequence of numbers 1-5, which creates the "choreography" of the dance. Each number 1-5 will represent a different dance move/skill.
+    - 'Sequence flipChoreo()':
+    flips the sequence of dance moves (note: choreography will have to be used first).
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. The dance must be created and changed.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes. The component will use Sequence methods.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I'm not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Hopefully. I'm not sure.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Food
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This component will randomly select food types and elememts of food.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - 'int breakLunDin()':
+    generates a random number 1-3 to select whether the meal will be breakfast, lunch, or dinner, respectively.
+    'boolean isFood()':
+    returns true if the item is food, false otherwise and the item is a beverage.
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - 'String bFoodType()':
+    randomly selects a breakfast food (note: can only be called if the selected meal is breakfast).
+    - 'String lFoodType()':
+    randomly selects a lunch food (note: can only be called if the selected meal is lunch).
+    - 'String dFoodType()':
+    randomly selects a dinner food (note: can only be called if the selected meal is dinner).
+    - 'String drinkType()':
+    randomly selects a drink (note: can only be called if isFood() is false).
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Probably. The food object will be changed.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Maybe.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Maybe? I'm not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I think so.
+
+- Component Design #3: TechTickets
+  - **Description**:
+    - Component will asist ASC Tech workers with organizational data about customer tickets.
+  - **Kernel Methods**:
+    - 'boolean isOsu(String email)':
+    checks if requestor has OSU email/is in our domain.
+    - 'boolean isASC(String department)':
+    checks if requestor's department is College of Arts and Sciences.
+    - 'String ticketPriority(String type, String effects)':
+    ranks ticket priority/urgency based on type of ticket and who it effects.
+  - **Secondary Methods**:
+    - 'String assignGroup()':
+    using data from Kernel methods, decide which group is responsible for ticket.
+    - 'boolean canAssist()':
+    using Kernel methods, checks if ASC Tech is able to assist requestor.
+
+  - **Additional Considerations** (*note*: "I don't know" is an acceptable
+    answer for each of the following questions):
+    - Would this component be mutable? Answer and explain:
+      - Yes, we are able to change the tech ticket.
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
+      Answer and explain:
+      - Potentially.
+    - Would this component need any enums or constants (e.g.,
+      `Program.Instruction`)? Answer and explain:
+      - I'm not sure.
+    - Can you implement your secondary methods using your kernel methods?
+      Answer, explain, and give at least one example:
+      - Yes.
 
 ## Post-Assignment
 
@@ -288,13 +306,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2025.09.19
 
 ### Added
 
-- Designed a <!-- insert name of component 1 here --> component
-- Designed a <!-- insert name of component 2 here --> component
-- Designed a <!-- insert name of component 3 here --> component
+- Designed a DanceBuilder component
+- Designed a Food component
+- Designed a TechTicket component
 ```
 
 Here `YYYY.MM.DD` would be the date of your submission, such as 2024.04.21.
@@ -309,7 +327,6 @@ of development.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
@@ -323,7 +340,6 @@ you have to submit any PDFs.
 
 ### Peer Review
 
-<!-- TODO: review the peer review guidelines then delete this comment -->
 
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
