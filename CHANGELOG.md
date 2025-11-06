@@ -16,6 +16,17 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include Interfaces
 
+## 2025.10.09
+
+### Added
+
+- Designed a proof of concept for DanceBuilder component
+
+### Updated
+
+- Changed design to include implementations of generateType(), numBars(), danceMood(), and choreography().
+
+
 ## [Unreleased]
 
 ## [2024.12.30]
