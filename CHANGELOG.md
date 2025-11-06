@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## 2025.10.09
+
+### Added
+
+- Designed a proof of concept for DanceBuilder component
+
+### Updated
+
+- Changed design to include implementations of generateType(), numBars(), danceMood(), and choreography().
+
+
 ## [Unreleased]
 
 ## [2024.12.30]
