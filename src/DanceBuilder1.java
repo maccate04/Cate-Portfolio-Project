@@ -89,7 +89,7 @@ public class DanceBuilder1 extends DanceBuilderSecondary {
         assert source != null : "Violation of: source is not null";
         assert source != this : "Violation of: source is not this";
         assert source instanceof DanceBuilder1 : ""
-                + "Violation of: source is of dynamic type NaturalNumberExample";
+                + "Violation of: source is of dynamic type DanceBuilderExample";
 
         DanceBuilder1 localSource = (DanceBuilder1) source;
         this.rep = localSource.rep;
