@@ -6,7 +6,10 @@
  *
  * @convention <pre>
  * All dances created with DanceBuilder will have all three kernel methods
- * called on DanceBuilder object, or else they will be incomplete dances.
+ * called on DanceBuilder object in order (generateType, numBars, danceMood), or else
+ * they will be incomplete dances.
+ * The dance types must be real dance types such as ballet,
+ * and the moods must be real moods such as happy.
  * </pre>
  *
  * @correspondance <pre>
@@ -69,12 +72,16 @@ public class DanceBuilder1 extends DanceBuilderSecondary {
 
     //Standard methods.
 
-    @Override
+    /**
+     * Clears DanceBuilder1 object.
+     */
     public final void clear() {
         this.createNewRep();
     }
 
-    @Override
+    /**
+     * Makes newInstance of DanceBuilder1.
+     */
     public final DanceBuilder newInstance() {
         try {
             return this.getClass().getConstructor().newInstance();
@@ -84,7 +91,9 @@ public class DanceBuilder1 extends DanceBuilderSecondary {
         }
     }
 
-    @Override
+    /**
+     * Transfers DanceBuilder1.
+     */
     public final void transferFrom(DanceBuilder source) {
         assert source != null : "Violation of: source is not null";
         assert source != this : "Violation of: source is not this";
@@ -126,16 +135,15 @@ public class DanceBuilder1 extends DanceBuilderSecondary {
      * @return number of bars as int (this is an even number)
      */
     public final int numBars() {
-        Random rand = new Random();
-        int randInd = rand.nextInt();
+        int randInd = 1;
 
-        //if the random int isn't even, recursively call numBars
-        // again until number generated is even.
-        if (randInd % 2 != 0) {
-            this.numBars();
+        while (randInd % 2 != 0) {
+            Random rand = new Random();
+            randInd = rand.nextInt();
         }
 
         //returns the random int that must be even
+        Integer(randInd).toString();
         this.rep += randInd;
         return randInd;
     }
