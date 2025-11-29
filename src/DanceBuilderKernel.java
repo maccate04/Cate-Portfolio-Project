@@ -20,7 +20,7 @@ import components.standard.Standard;
  *
  */
 
-public interface DanceBuilderKernel extends Standard<DanceBuilder> {
+public interface DanceBuilderKernel extends Standard<DanceBuilderPoC> {
 
     /*
      * @return type of dance as String from list of dances
