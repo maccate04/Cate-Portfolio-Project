@@ -23,6 +23,7 @@ import components.sequence.Sequence1L;
 
 public class DanceBuilder {
 
+<<<<<<< Updated upstream
 /*
  * Kernel methods ----------------------------------------------------------------
  */
@@ -125,5 +126,15 @@ public static void main(String[] args){
     choreography();
 
 }
+=======
+    /*
+     * Randomly creates a dance choreography.
+     *
+     * @return Sequence of dance choreography
+     *
+     * @ensures Sequence of 10 digits 1-5 is returned.
+     */
+    private Sequence<Integer> choreography();
+>>>>>>> Stashed changes
 
 }

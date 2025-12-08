@@ -204,8 +204,7 @@ will likely refine your design to make your implementation easier to use.
   - **Secondary Methods**:
     - 'Sequence choreography()':
     creates a random 10 digit sequence of numbers 1-5, which creates the "choreography" of the dance. Each number 1-5 will represent a different dance move/skill.
-    - 'Sequence flipChoreo()':
-    flips the sequence of dance moves (note: choreography will have to be used first).
+
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
@@ -226,17 +225,11 @@ will likely refine your design to make your implementation easier to use.
   - **Kernel Methods**:
     - 'int breakLunDin()':
     generates a random number 1-3 to select whether the meal will be breakfast, lunch, or dinner, respectively.
-    'boolean isFood()':
+    - 'boolean isFood()':
     returns true if the item is food, false otherwise and the item is a beverage.
   - **Secondary Methods**:
-    - 'String bFoodType()':
-    randomly selects a breakfast food (note: can only be called if the selected meal is breakfast).
-    - 'String lFoodType()':
-    randomly selects a lunch food (note: can only be called if the selected meal is lunch).
-    - 'String dFoodType()':
-    randomly selects a dinner food (note: can only be called if the selected meal is dinner).
-    - 'String drinkType()':
-    randomly selects a drink (note: can only be called if isFood() is false).
+    - 'String createMeal()':
+    creates a random meal by calling kernel methods breakLunDin() and isFood() to produce an int 1-3 representing breakfast, lunch, or dinner, respectively and a boolean which represents if the item is food or a drink. The meal will state which meal it is and which item it is.
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
@@ -262,10 +255,8 @@ will likely refine your design to make your implementation easier to use.
     - 'String ticketPriority(String type, String effects)':
     ranks ticket priority/urgency based on type of ticket and who it effects.
   - **Secondary Methods**:
-    - 'String assignGroup()':
-    using data from Kernel methods, decide which group is responsible for ticket.
-    - 'boolean canAssist()':
-    using Kernel methods, checks if ASC Tech is able to assist requestor.
+    - 'boolean canAssist(boolean isOsu, boolean isASC)':
+    using Kernel methods, checks if ASC Tech is able to assist requestor. If the requestor is in OSU's domain and is part of ASC then return true. Else, return false and ASC Tech cannot assist.
 
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
