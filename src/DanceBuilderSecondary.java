@@ -19,12 +19,6 @@ import components.simplewriter.SimpleWriter1L;
  *
  */
 public abstract class DanceBuilderSecondary extends DanceBuilder {
-    /**
-     * global variables.
-     */
-    String type = generateType(types);
-    int bars = numBars();
-    String mood = danceMood(moods);
 
     /*
      * @param types is String[] with different types of dance
@@ -39,6 +33,10 @@ public abstract class DanceBuilderSecondary extends DanceBuilder {
         //note: I changed this method so it could better use Kernel methods
         SimpleWriter choreo = new SimpleWriter1L();
 
+        String type = generateType(types);
+        int bars = numBars();
+        String mood = danceMood(moods);
+
         choreo.println("The dance is of type: " + this.type + ". It is "
                 + this.bars + " bars long. The mood is " + this.mood + ".");
     }
@@ -51,6 +49,10 @@ public abstract class DanceBuilderSecondary extends DanceBuilder {
     @Override
     public String toString() {
         String s = "";
+
+        String type = generateType(types);
+        int bars = numBars();
+        String mood = danceMood(moods);
 
         //concatenates i so it becomes a String
         s = "The dance is of type: " + this.type + ". It is " + this.bars
