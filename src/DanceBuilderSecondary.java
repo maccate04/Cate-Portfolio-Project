@@ -18,8 +18,13 @@ import components.simplewriter.SimpleWriter1L;
  * @author Cate MacLaughlin
  *
  */
-
-public abstract class DanceBuilderSecondary {
+public abstract class DanceBuilderSecondary extends DanceBuilder {
+    /**
+     * global variables.
+     */
+    String type = generateType(types);
+    int bars = numBars();
+    String mood = danceMood(moods);
 
     /*
      * @param types is String[] with different types of dance
@@ -27,44 +32,46 @@ public abstract class DanceBuilderSecondary {
      * @param moods is String[] with different dance moods
      *
      * @return the dance choreography using Kernel methods
+     *
+     * @ensures choreogrpahy uses each Kernel method to make a dance
      */
-    private static void choreography(String[] types, String[] moods) {
+    private void choreography(String[] types, String[] moods) {
         //note: I changed this method so it could better use Kernel methods
         SimpleWriter choreo = new SimpleWriter1L();
 
-        String type = generateType(types);
-        int bars = numBars();
-        String mood = danceMood(moods);
-
-        choreo.println("The dance is of type: " + type + ". It is " + bars
-                + " bars long. The mood is " + mood + ".");
+        choreo.println("The dance is of type: " + this.type + ". It is "
+                + this.bars + " bars long. The mood is " + this.mood + ".");
     }
 
     /*
      * implementation of toString
      *
-     * @param i int i is the int to be converted to a String
-     *
-     * @returns String of int i
+     * @returns String of int
      */
-    public static String toString(int i) {
+    @Override
+    public String toString() {
         String s = "";
 
         //concatenates i so it becomes a String
-        s = "" + i;
+        s = "The dance is of type: " + this.type + ". It is " + this.bars
+                + " bars long. The mood is " + this.mood + ".";
 
         return s;
     }
 
     /*
-     * @param s1 and s2 Strings to compare
+     * @param o to compare to this
      *
-     * @returns if s1 and s2 are equal
+     * @returns true if o and this are equal
      */
-    public static boolean equals(String s1, String s2) {
+    @Override
+    public boolean equals(Object o) {
         boolean eq = false;
 
-        if (s1.substring(0).contains(s2.substring(0))) {
+        if (o == null) {
+            eq = false;
+        }
+        if (o == this) {
             eq = true;
         }
         return eq;
