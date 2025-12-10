@@ -119,7 +119,7 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-I'm going to represent my component as a String because my component will have various properties that will be held in a String.
+I'm going to represent my component by taking in variables directly to the constructor and storing them. For example, my constructor will be initialized with String[] for the dance types and moods and an int for number of bars. Once methods are called, a type and a mood will be selected and an even number of bars will also be picked.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to
