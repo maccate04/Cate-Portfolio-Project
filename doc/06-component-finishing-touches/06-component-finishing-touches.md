@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Cate MacLaughlin
+- **Dot Number**: maclaughlin.33
+- **Due Date**: 12/10 @ 11:59
 
 ## Assignment Overview
 
@@ -307,18 +307,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+This project has definitely helped me understand the software development process because I was responsible for going through each step of the process and fixing/debugging when needed on my own.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Yes, I knew of the different elements of design, but had never really put them all together to create a component. The project helped me understand the process and bridge the gaps.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+This project has changed my perspective on the software development process because, as stated above, I had seen/used the different design elements before (interfaces, classes, etc), but had never put them together to create a component. I learned more in depth about how the process works overall.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +326,26 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I learned how to actually use my skills to create something of my own; the software sequence and other CS classes I have taken were very structured and told me exactly what I had to do and which skills to use but this project was self-led. I also learned about using GitHub more, like creating pull requests and merging my work.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Created self-led software project using elements of design and development such as brainstorming, creating interfaces, abstract classes, and implementations.
+- Knowledge of using GitHub, including sharing work using pull requests and merging branches.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+The topic I selected was dance, a long-loved passion of mine since I was 6. This project has made me more excited to use my component to generate outlines for dances, so that I choreograph my own dances. As for my career, I am still interested in data analytics/visualization, but am glad to have these skills.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+I could continue to improve my software skills, but also learn how to incorporate those skills more with data analysis. I am comfortable using other languages like R and Python, but would love to get more familiar with using Java for DA. For the statistics side of my major, I could contact my neighbor who is pursuing her Ph.D in statistics. For the CS side of my major, I could contact my brother, who is a software developer for Epic.
 
 ### Changelog
 
