@@ -132,9 +132,9 @@ of it in this folder. You may also embed it just below using markdown syntax
 (i.e., `![ALT TEXT](path/to/file)`).
 
 
-(Users/cate/Desktop/Components interfaces .pdf)
+(Users/cate/Desktop/Components-interfaces-copy.PNG)
 
-`![ALT TEXT](./files/Components interfaces .pdf)`
+![ALT TEXT](Users/cate/Desktop/Components-interfaces-copy.PNG)
 
 
 To start making your interfaces, make a branch off of main in your new repo

@@ -6,8 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-<<<<<<< Updated upstream
-=======
+## 2025.12.10
+
+### Added
+
+- Designed test suite for DanceBuilder component
+- Designed two different use cases for DanceBuilder component
+
+### Updated
+
+- Changed design to include test cases, use cases, and made minimal updates to other parts of project.
+
 ## 2025.12.08
 
 ### Updated
@@ -41,7 +50,6 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include abstract class, DanceBuilderSecondary
 
->>>>>>> Stashed changes
 ## 2025.10.23
 
 ### Added

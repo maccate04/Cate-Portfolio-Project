@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Cate MacLaughlin
+- **Dot Number**: maclaughlin.33
+- **Due Date**: 12/10 @ 11:59
 
 ## Assignment Overview
 
@@ -50,7 +50,6 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +140,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +305,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+This project has definitely helped me understand the software development and design process. In class, we get a lot of stucture but this project helped me learn to completely create my own software.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Yes, it came to my attention that I had seen the different elements of design and development but had never actually put them all together, epecially not by myself. This project helped me to learn how to put them together.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+My perspective has changed because I have learned in depth about the process; it definitely takes a lot of patience and effort to create software. I enjoy it still, and want to keep improving.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +324,26 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I learned how to create and design my own software; this is something I hadn't done before, as all my previous CS classes were very structured. I also got more familiar with GitHub like creating pull requests and publishing my work.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Created a software component using the development and design process, including making the interfaces, abstract class, kernel implementation, and testing.
+- Familiar with using GitHub to create pull requests to share work.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+The topic I picked was dance- a passion of mine since I was 6. This project has made me more excited to use my component to choreograph dances. As for my career, I am still interested in data analytics/visualization.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+I am comfortable using R and Python for DA, but would love to get more comfortable with using other languages like Java for it. For mentors, I can look to my neighbor, who is pursuing her Ph.D in statistics, and my brother, who is a software developer at Epic.
 
 ### Changelog
 
